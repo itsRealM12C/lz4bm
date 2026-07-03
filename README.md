@@ -2,7 +2,7 @@
 
 Decompress BM in LZ4 compressed file
 
-Reverse-engineering notes and usage guide for `lz4p8_extractor.html` — a
+Reverse-engineering notes and usage guide for `lz4bm` — a
 self-contained, dependency-free tool that reassembles `LZ4P8`-tagged binary
 blobs (commonly pulled from `mmcblkNpM` eMMC/SD partition dumps on embedded
 Linux devices) back into a viewable BMP image.
@@ -156,7 +156,7 @@ file before being inlined into the HTML tool.
 
 ## 5. Using the tool
 
-1. Open `lz4p8_extractor.html` in any modern browser (no server needed).
+1. Open `lz4bm` in any modern browser (no server needed).
 2. Drop your `LZ4P8`-tagged file onto the drop zone, or click to browse.
 3. The tool will:
    - Validate the magic bytes.
